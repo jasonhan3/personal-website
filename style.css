@@ -7,6 +7,102 @@
     margin: 0 auto;
 }
 
+.chatbot-box {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.carousel-caption-below {
+    background-color: #f7f7f7; /* or any preferred color */
+    padding: 10px;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.carousel-img {
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/* For large desktops */
+@media (min-width: 992px) {
+    .carousel-img {
+        max-height: 450px;  /* or whatever maximum height you desire for large screens */
+    }
+}
+
+/* For tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+    .image-container {
+        height: 400px;
+    }
+}
+
+/* For mobiles */
+@media (max-width: 767px) {
+    .image-container {
+        height: 300px;
+    }
+}
+
+/* .image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    overflow: hidden;
+}
+
+.carousel-img {
+    max-height: 100%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .image-container {
+        height: 400px;
+    }
+}
+
+@media (max-width: 767px) {
+    .image-container {
+        height: 300px;
+    }
+} */
+
+/* @media (min-width: 992px) {
+    .carousel-item img {
+        height: 500px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .carousel-item img {
+        height: 400px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 300px;
+    }
+} */
+
 /* .banner {
     position: relative;
     width: 100%;
